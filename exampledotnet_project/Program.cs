@@ -2,15 +2,23 @@ using Microsoft.EntityFrameworkCore;
 using exampledotnet_project.Data;
 using exampledotnet_project.Repositories;
 using exampledotnet_project.Services;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddOpenApi();
+
+
+// Configure the HTTP request pipeline.
+
 
 // Add Entity Framework
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add repositories
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
@@ -39,6 +47,9 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.UseDeveloperExceptionPage();
+    app.UseSwagger();
+    app.UseSwaggerUI(); // */swagger
+    app.MapScalarApiReference(); // */scalar
 }
 
 app.UseHttpsRedirection();

@@ -121,11 +121,14 @@ E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\staticweb
 E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\staticwebassets.build.json.cache
 E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\staticwebassets.development.json
 E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\exampled.31F8E3F2.Up2Date
 E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\exampledotnet_project.dll
 E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\refint\exampledotnet_project.dll
 E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\exampledotnet_project.pdb
 E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\exampledotnet_project.genruntimeconfig.cache
 E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\ref\exampledotnet_project.dll
-E:\dotnet\exampledotnet_project\exampledotnet_project\bin\Debug\net9.0\example_requests.json
+E:\dotnet\exampledotnet_project\exampledotnet_project\obj\Debug\net9.0\exampledotnet_project.sourcelink.json
+E:\dotnet\exampledotnet_project\exampledotnet_project\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\dotnet\exampledotnet_project\exampledotnet_project\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\dotnet\exampledotnet_project\exampledotnet_project\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\dotnet\exampledotnet_project\exampledotnet_project\bin\Debug\net9.0\Scalar.AspNetCore.dll
